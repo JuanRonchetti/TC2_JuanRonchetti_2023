@@ -1,0 +1,24 @@
+Circuit: * D:\UTN D\04 - Teoria de Circuitos 2\TC2_JuanRonchetti_2023\Parcial_1\Circuito_1c.asc
+
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+
+Date: Mon Jul 10 20:32:40 2023
+Total elapsed time: 0.019 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 0
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 10
+fillins = 11
+solver = Normal
+
