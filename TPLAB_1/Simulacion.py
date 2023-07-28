@@ -13,24 +13,17 @@ from pytc2.sistemas_lineales import analyze_sys, tf2sos_analog, pretty_print_SOS
 
 plt.close('all')
 
-#num= [0.3766, 0]
-#den= [1, 0.3766, 1]
+w = 2*3.1416*6000
+Q = 2.654
 
-w0=1
-Q=2.654
+num= [w/Q, 0]
+den= [1, w/Q, w*w]
 
-num= [w0/Q, 0]
-den= [1, w0/Q, w0^2]
+#w0=1
+#Q=2.654
 
 tf_bp = sig.TransferFunction(num, den)
-
-# Se plotea el pasabajos
 analyze_sys( tf_bp, 'BPF' )
-
-
-#pretty_print_SOS(tf_bp)
-
-#pretty_print_SOS(tf_bp, mode='omegayq')
 
 
 
