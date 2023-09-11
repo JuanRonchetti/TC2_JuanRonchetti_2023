@@ -1,0 +1,13 @@
+* D:\UTN D\04 - Teoria de Circuitos 2\TC2_JuanRonchetti_2023\TS_7\Circuito1.asc
+R1 N001 0 1
+L1 0 N001 1
+L2 V2 0 1
+R3 V2 0 3
+R2 V2 N001 2
+V1 N001 0 AC 1 0
+K L1 L2 1
+* :
+.net I(R3) V1
+.ac dec 1000 0.01 100
+.backanno
+.end
