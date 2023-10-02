@@ -1,0 +1,12 @@
+"Task Aware Debugger for GDB" version 11.6.0 (202206271353)
+(c) 2016-2022 NXP Semiconductors, Inc.
+==================================
+20:33:06.425 INFO: [ZephyrRTOS] C:\Users\asus rog gl552vwdh71\Desktop\TCII\2022\TPL\TPL2\workspace\TCII_2_0\ultimo\workspace\ADCMSIS\Debug\.config file could not be read
+20:33:06.425 INFO: [TadModel] DSF session ID 6 has started.
+20:33:13.977 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+20:33:14.22 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+20:33:15.01 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+20:33:15.166 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+20:33:17.25 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+20:33:34.41 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+20:33:36.267 INFO: [TadModel] DSF session ID 6 has ended.

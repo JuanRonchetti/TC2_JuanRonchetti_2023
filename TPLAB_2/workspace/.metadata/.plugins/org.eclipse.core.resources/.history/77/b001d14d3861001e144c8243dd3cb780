@@ -1,0 +1,31 @@
+/*
+===============================================================================
+ Name        : filter.c
+ Authors     : Israel Pavelek, Cesar Fuoco
+ Version     : 1.0
+ Copyright   : $(copyright)
+ Description : main definition
+===============================================================================
+*/
+
+#include "filter.h"
+#include <stdint.h>
+
+// ************ FIR Equirriple ************
+int32_t fir_taps[FIR_TAP_NUM] = {0};
+float float_fir_taps[FIR_TAP_NUM] = {0};
+
+// ********** FIR Least Squares ***********
+//int32_t fir_taps[FIR_TAP_NUM] = {0};
+//float float_fir_taps[FIR_TAP_NUM] = {0};
+
+// ************ IIR Butterworth ***********
+int32_t iir_taps[IIR_TAP_NUM] = {0};
+float float_iir_taps[IIR_TAP_NUM] = {0};
+
+
+
+
+
+
+
