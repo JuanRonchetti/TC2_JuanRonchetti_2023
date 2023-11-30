@@ -1,0 +1,11 @@
+* D:\UTN D\04 - Teoria de Circuitos 2\TC2_JuanRonchetti_2023\TPLAB_2\Sallen-Key.asc
+XU1 Vo N002 Vo opamp Aol=100K GBW=10Meg
+R2 N002 N001 7480
+R1 N001 Vi 7480
+C2 N002 0 1.32n
+C1 Vo N001 1.32n
+V1 Vi 0 AC 1 0
+.lib opamp.sub
+.ac dec 1000 1 40k
+.backanno
+.end

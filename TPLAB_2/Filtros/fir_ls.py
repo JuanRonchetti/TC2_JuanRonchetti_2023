@@ -23,12 +23,13 @@ gpass = 1
 gstop = 20 
 
 frecs = [0.0,   fpass[0],     fstop[0],     fstop[1],     fpass[1],     nyq]
-gains = [1,     gpass,     -gstop,     -gstop,      gpass,      1] 
+gains = [0,     0,     -gstop,     -gstop,      0,      0] 
 gains = 10**(np.array(gains)/20)
 
 fir_ls = sig.firls(cant_coef, frecs, gains, fs=fs)
 
 np.set_printoptions(precision=20, suppress = True)
+print("Coeficientes del filtro: \n")
 print(fir_ls)
 
 wrad, hh = sig.freqz(fir_ls, worN = 1000)
